@@ -1,0 +1,54 @@
+/*EFEITOS*/
+.imgHover{
+	transition-duration: 0.5s;
+	width: 90px;
+	background: #545e45;
+	border-radius: 50px;
+}
+
+
+@media (min-width: 0px) and (max-width: 576px) { 
+	#date-photos .caixa .fundo .quadro .sub-quadro .photos{
+		width: 90px;
+	}
+	#date-photos .caixa{
+		width: 500px;
+		
+	}
+	.mapsContainer{
+		width:200px;
+		height: 300px;
+	}
+}
+
+@media (min-width: 768px) { 
+	#date-photos .caixa .fundo .quadro .sub-quadro .photos{
+		width: 110px;
+	}
+	#date-photos .caixa{
+		width: 600px;
+		
+	}
+	.mapsContainer{
+		width:300px;
+		height: 400px;
+	}
+ }
+
+@media (min-width: 992px) { 
+	#date-photos .caixa .fundo .quadro .sub-quadro .photos{
+		width: 130px;
+	}
+	#date-photos .caixa{
+		width: 700px;
+	}
+}
+
+@media (min-width: 1200px) { 
+	#date-photos .caixa .fundo .quadro .sub-quadro .photos{
+		width: 170px;
+	}
+	#date-photos .caixa{
+		width: 700px;
+	}
+ }

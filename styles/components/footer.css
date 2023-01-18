@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Passions+Conflict");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+@font-face {
+  font-family: HelloValentina;
+  src: url(../fonts/HelloValentina.ttf);
+}
+footer {
+  background: #545e45;
+}
+footer .container {
+  color: white;
+  padding: 30px 0px 20px 0px;
+}
+footer .container h1 {
+  font-size: 2.8em;
+  text-align: center;
+}
+footer .background-footer {
+  background: #1f2d16;
+  padding: 10px;
+  color: white;
+}
+footer .background-footer h2 {
+  font-size: 0.7em;
+  text-align: center;
+}/*# sourceMappingURL=footer.css.map */

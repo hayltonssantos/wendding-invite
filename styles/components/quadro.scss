@@ -1,0 +1,60 @@
+@import '../abstract/variaveis';
+
+#date-photos{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .caixa{
+        width: 70%;
+        padding: 30px 0px 30px 50px;
+        box-shadow: -5px 2px 10px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        background: $back-convite;
+        background-size: cover;
+        .fundo{
+            width: 90%;
+            box-shadow: -5px 2px 10px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            .quadro{
+                border-radius: 20px;
+                background: white;
+                .save{
+                    font-size: 2em;
+                    font-family: $fonte-terciaria;
+                    margin-bottom: -20px;
+                    .the{
+                        font-size: 70px;
+                        padding: 0;
+                        font-family: $fonte-primaria;
+                    }
+                }
+                .sub-quadro{
+                    padding-bottom: 10px;
+                    left: -30px;
+                    .photos{
+                        width: 90px;
+                        height: 100%;
+                    }
+                    .carousel-caption{
+                        bottom: -46px;
+                        font-family: $fonte-secundaria;
+                        h3{
+                            font-size: 4em;
+                        }
+                    }
+                }
+                .names{
+                    font-size: 2em;
+                    font-family: $fonte-terciaria;
+                }
+                .married{
+                    font-size: 3.5em;
+                    font-family: $fonte-primaria;
+                    margin-top: -32px;
+                }
+            }   
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+@import '../abstract/variaveis';
+
+@mixin titlesContainers{
+    padding-bottom: 10px;
+    font-family: $fonte-alternativa;
+}
+
+#horarios{
+    .container{
+        padding:30px 0px 30px 0px;
+	    text-align: center;
+        .titlesContainers{
+            @include titlesContainers()
+        } 
+    }
+    .quadroHorarios{
+        text-align: center;
+	    list-style: none;
+        .titlesContainers{
+            @include titlesContainers()
+        } 
+        .fotoDireita{
+            border-right: 1px solid green;
+        }
+        .photoHorario{
+            transition-duration: 0.5s;
+	        width: 80px;
+            .descricaoHorario{
+                font-size:1em;
+            }
+        }
+    }
+}

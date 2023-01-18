@@ -1,0 +1,36 @@
+@import '../abstract/variaveis';
+
+#quiz{
+    padding: 20px;
+    .imgsCarousel{
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+    }
+    .caixaImg{
+        width: 100%;
+        padding: 20px;
+    }
+    .caixa{
+        width: 80%;
+        padding: 50px;
+        box-shadow: -5px 2px 10px 5px rgb(0 0 0 / 20%);
+        border-radius: 15px;
+        background-color: white;
+        justify-content: center;
+        margin: 0 auto;
+        label{
+            font-family: $fonte-alternativa;
+            font-size: 20px
+        }
+        .btn-custom{
+            background-color:#545e45;
+            border-radius: 10px;
+            justify-content: inherit;
+            margin: 0 auto;
+            &:hover{
+                color:white;
+            }
+        }
+    }
+}

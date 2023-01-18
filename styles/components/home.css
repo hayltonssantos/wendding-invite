@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Passions+Conflict");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+@font-face {
+  font-family: HelloValentina;
+  src: url(../fonts/HelloValentina.ttf);
+}
+#home {
+  background: url(../img/back2.jpg);
+  background-size: cover;
+  background-position-y: bottom;
+  width: 100%;
+  height: 90%;
+}
+#home .container {
+  padding-bottom: 80px;
+}
+#home h3 {
+  font-family: "Crete Round", sans-serif;
+  text-transform: uppercase;
+}
+
+#texto .container {
+  width: 80%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: "Crete Round", sans-serif;
+  font-size: 1.5em;
+}/*# sourceMappingURL=home.css.map */

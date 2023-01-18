@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Passions+Conflict");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+@font-face {
+  font-family: HelloValentina;
+  src: url(../fonts/HelloValentina.ttf);
+}
+#quiz {
+  padding: 20px;
+}
+#quiz .imgsCarousel {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+#quiz .caixaImg {
+  width: 100%;
+  padding: 20px;
+}
+#quiz .caixa {
+  width: 80%;
+  padding: 50px;
+  box-shadow: -5px 2px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: white;
+  justify-content: center;
+  margin: 0 auto;
+}
+#quiz .caixa label {
+  font-family: "Crete Round", sans-serif;
+  font-size: 20px;
+}
+#quiz .caixa .btn-custom {
+  background-color: #545e45;
+  border-radius: 10px;
+  justify-content: inherit;
+  margin: 0 auto;
+}
+#quiz .caixa .btn-custom:hover {
+  color: white;
+}/*# sourceMappingURL=quiz.css.map */

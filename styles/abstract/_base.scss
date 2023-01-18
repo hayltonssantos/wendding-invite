@@ -1,0 +1,24 @@
+@import './variaveis';
+
+html,body,#home{
+	height: 100%;
+    width: 100%;	
+    margin: 0 auto;
+}
+
+body{
+    font-family: $fonte-family-reset;
+    .nav-principal{
+        padding: 15px 0px 0px 0px; 
+    }
+    .nomeCasal{
+        font-size: 2em;
+	    font-family: $fonte-title;    
+    }
+}
+.contadorDias{
+    font-family: $fonte-alternativa;
+	letter-spacing: 0.1em;
+	font-size: 0.85em;
+	text-align: center;
+}

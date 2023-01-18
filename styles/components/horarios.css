@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Passions+Conflict");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+@font-face {
+  font-family: HelloValentina;
+  src: url(../fonts/HelloValentina.ttf);
+}
+#horarios .container {
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+#horarios .container .titlesContainers {
+  padding-bottom: 10px;
+  font-family: "Crete Round", sans-serif;
+}
+#horarios .quadroHorarios {
+  text-align: center;
+  list-style: none;
+}
+#horarios .quadroHorarios .titlesContainers {
+  padding-bottom: 10px;
+  font-family: "Crete Round", sans-serif;
+}
+#horarios .quadroHorarios .fotoDireita {
+  border-right: 1px solid green;
+}
+#horarios .quadroHorarios .photoHorario {
+  transition-duration: 0.5s;
+  width: 80px;
+}
+#horarios .quadroHorarios .photoHorario .descricaoHorario {
+  font-size: 1em;
+}/*# sourceMappingURL=horarios.css.map */

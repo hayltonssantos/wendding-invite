@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Passions+Conflict');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+@font-face {
+    font-family: HelloValentina;
+    src: url(../fonts/HelloValentina.ttf)
+  }
+
+
+//Fontes
+$fonte-primaria: "Passions Conflict", sans-serif;
+$fonte-secundaria: "Abril Fatface", sans-serif;
+$fonte-terciaria: "Playfair Display", sans-serif;
+$fonte-alternativa: "Crete Round", sans-serif;
+$fonte-family-reset: Helvetica, Arial, sans-serif;
+$fonte-title: "HelloValentina", sans-serif;
+
+//Background
+$back-principal: url(../img/back.jpg);
+$back-secundario: url(../img/back2.jpg);
+$back-convite: url(../img/backConvite.jpg);
