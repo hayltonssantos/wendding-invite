@@ -93,7 +93,7 @@ $(function(){
 
 
 //FUNCOES LOAD
-var diaCasamento = "2024-08-16"
+var diaCasamento = "2024-06-14"
 var nomeCasal = "Joana & Marco"
 var juntosDesde = "2022"
 var fotos = ['2','3','4']
