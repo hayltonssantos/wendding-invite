@@ -94,7 +94,7 @@ $(function(){
 
 //FUNCOES LOAD
 var diaCasamento = "2024-06-14"
-var nomeCasal = "Joana & Marco"
+var nomeCasal = "Haylton & Camile"
 var juntosDesde = "2022"
 var fotos = ['2','3','4']
 $(window).on('load',
